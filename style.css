@@ -18,12 +18,67 @@
 	background-color: indianred;
 }
 p, marquee{
-	color: maroon;
+	color: lightgreen;
 	font-size: 50px;
-	background-color: beige;
-	font-family: cursive;
+	border: 2px dashed lightgreen;
 }
 h1, h2{
-	color: white;
-	background-color: black;
+	color: red;
+	background-color: pink;
+}
+*{
+	font-family: cursive;
+	margin: 0px;
+	padding: 0px;
+}
+input[type]{
+	color: red;
+}
+input[type="text"]{
+	color: grey;
+}
+input[type="radio"]{
+	color: blue;
+}
+input[type="number"]{
+	color: green;
+}
+/*a[href]{
+	background-color: skyblue;
+}*/
+img[alt]{
+	color: orange;
+}
+img[src]{
+	margin-left: 250px;
+	width: 150px;
+	border: 2px dashed indianred;
+	box-shadow: 3px 3px 3px black;
+}
+a:link{
+	color: limegreen;
+}
+a:visited{
+	color: black;
+}
+a:hover{
+	color: hotpink;
+	font-size: 50pxpx;
+}
+a:active{
+	color: darkgoldenrod;
+}
+div{
+	width: 300px;
+	height: 300px;
+	background-color: darkblue;
+}
+div:hover{
+	background-color: darkred;
+/*	width: 600px;
+	height: 600px;*/	
+}
+h1:hover{
+	color: pink;
+	background-color: red;
 }

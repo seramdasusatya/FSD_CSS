@@ -1,0 +1,16 @@
+body{
+	background-image: url('images/ea.png');
+	background-size: cover;
+}
+.bg1{
+	background-image: url('images/a1.png');
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 500px;
+}
+p{
+	padding-left: 60px;
+	padding-top: 120px;
+	font-size: 50px;
+	font-weight: bold;
+}
